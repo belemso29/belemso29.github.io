@@ -1,0 +1,245 @@
+@charset "utf-8";
+header, nav, main, footer {
+    padding: 20px;
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    font-family: open-sans;
+    font-style: normal;
+    font-weight: 300;
+}
+header p img {
+    width: 167px;
+    height: auto;
+    margin-left: 20px;
+    margin-bottom: 90px;
+    margin-top: -102px;
+}
+
+header {
+    background-color: #A108CB;
+    height: 100px;
+    padding-bottom: 7px;
+}
+
+nav ul {
+    width: 92%;
+    text-align: right;
+    height: auto;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+
+
+
+}
+nav ul li {
+    margin: 10px;
+    display: inline-block;
+    font-family: open-sans;
+    font-style: normal;
+    font-weight: 300;
+}
+ul li a {
+    text-decoration: none;
+    color: #FBF4F4;
+    font-family: Calibri;
+    font-style: normal;
+    font-weight: 400;
+    font-size: larger;
+}
+ul li a:hover {
+    background-color: #DB9EEC;
+    padding: 15px;
+    border-radius: 10px;
+    color: #750693;
+}
+
+
+
+
+nav {
+    height: 59px;
+}
+main {
+    background-color: #DE88F5;
+    height: auto;
+}
+.header2 {
+    background-image: url(../imagenes/jpg/estudio.jpg);
+    height: 230px;
+    color: #F9F0F1;
+}
+.header2 img {
+    width: 200px;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0;
+    display: block;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+.texto {
+    text-align: center;
+    font-family: Calibri;
+    font-style: normal;
+    font-weight: 300;
+    font-size: x-large;
+    margin: 0 auto;
+    width: 75%;
+}
+main section {
+    width: 900px;
+    padding: 30px;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0;
+    background-color: #E6A2F8;
+    height: auto;
+    font-family: Calibri;
+    font-variant: normal;
+    font-weight: 500;
+    color: #370046;
+	
+}
+main section p {
+
+
+
+}
+
+
+.imgy {
+    width: 30%;
+    height: auto;
+    float: left;
+    padding-top: 0px;
+    padding-right: 75px;
+    margin-top: -23px;
+}
+.redes {
+    text-align: left;
+}
+.face {
+    width: 3%;
+    height: auto;
+    padding-left: 13px;
+    text-align: left;
+}
+.box-container{
+	display: flex;
+	justify-content:center;
+	text-align: center;
+}
+
+.box-container .box{
+    height: 122px;
+    width: 363px;
+    text-align: center;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+    filter: drop-shadow(5px 5px 15px white);
+}
+
+.definiciones {
+
+
+}
+footer {
+    background-color: #A108CB;
+}
+
+.box .definiciones a:hover {
+    color: #700B8B;
+    padding: 15px;
+    background-color: #FCFCFC;
+}
+.pie {
+    width: 6%;
+    height: auto;
+    padding-left: 82px;
+    text-align: left;
+    color: #F9F7F7;
+}
+footer p {
+    color: #FCFBFB;
+    text-align: center;
+    font-family: Calibri;
+    font-weight: 500;
+}
+.imaEX {
+    width: 70%;
+}
+.gmail {
+    text-decoration: underline;
+    color: #9408B9;
+}
+.img_filter_size {
+    width: 36%;
+    margin: 5px;
+    height: auto;
+}
+.OCEO {
+    background-image: url(../imagenes/jpg/OCEO.jpg);
+}
+.MUC {
+    background-image: url(../imagenes/jpg/MUC.jpg);
+}
+.SUBTI {
+    text-align: center;
+    font-size: 168%;
+    color: #F9F4F4;
+}
+.FT {
+    background-image: url(../imagenes/jpg/FP.jpg);
+}
+.PORT {
+    background-image: url(../imagenes/jpg/FE.jpg);
+}
+.MUR {
+    background-image: url(../imagenes/jpg/MU.jpg);
+}
+.CUENTOS {
+    background-image: url(../imagenes/jpg/cuentos.jpg);
+}
+.ILUSTRACION {
+    background-image: url(../imagenes/jpg/ilustracion.jpg);
+}
+.video_size {
+    width: 47%;
+    height: auto;
+    padding-left: 22px;
+}
+.subtitulos {
+    color: #FDF8F8;
+    margin-top: 50px;
+    font-size: 177%;
+}
+.contacto {
+    margin: 20px auto;
+    width: 45%;
+}
+#form1 {
+    background-color: #BF38E3;
+    width: 60%;
+    margin: 20px auto;
+    padding: 30px;
+    height: auto;
+}
+input[type=text], input[type=email], textarea, select {
+    padding: 5px;
+    width: 100%;
+}
+input[type=submit] {
+    width: 25%;
+    height: 30px;
+    background-color: #A108CB;
+    color: #F7EFEF;
+}
+.videos .SUBTI.animate__animated.animate__heartBeat {
+    height: 54px;
+}
